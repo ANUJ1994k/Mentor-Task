@@ -34,3 +34,25 @@ To create a new branch, you can use the git branch command followed by the branc
 This command creates a new branch named "new-feature" but doesn't switch to it yet.
 
 Stage Changes Use the git add command to stage the changes you want to commit. For example, to stage all changes, git add .
+
+repo -> repository
+
+clone -> bring a repo down from the internet (remote repository like Github) to your local machine
+
+add -> track your files and changes with Git
+
+commit -> save your changes into Git
+
+push -> push your changes to your remote repo on Github (or another website)
+
+pull -> pull changes down from the remote repo to your local machine
+
+status -> check to see which files are being tracked or need to be commited
+
+init -> use this command inside of your project to turn it into a Git repository and start using Git with that codebase
+
+#About SSH key passphrases
+>You can access and write data in repositories on GitHub using SSH (Secure Shell Protocol). When you connect via SSH, you authenticate using a private key file on your local machine.
+>Open Gitbash  Type: "ssh-keygen -t ed25519 -C "your_email"   (Created GIthub profile mail)
+>Generating public/private ALGORITHM key pair.
+>Enter file in which to save the key (/c/Users/YOU/.ssh/id_ALGORITHM):[Press enter]
